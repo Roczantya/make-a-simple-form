@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action="Pendaftaran.php" method="post">
+    <fieldset>
+    <legend>Form Pendaftaran</legend>
+    <table>
+        <tr>
+            <td><label for="nama">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td>:</td>
+            <td><input type="text" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label>Tanggal Lahir</label></td>
+            <td>:</td>
+            <td><input type="date" name="tanggal" />(hh/bb/tttt)</td>
+        </tr>
+        <tr>
+            <td><label for="jenis_kelamin">Jenis kelamin</label></td>
+            <td>:</td>
+            <td><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label></td>
+            <td><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></
+        </tr>
+        <tr>
+            <td><label for="Jurus">Jurusan</label></td>
+            <td>:</td>
+            <td><select name="" id="">
+                <option value="IMT">IMT</option>
+                <option value="VCD">VCD</option>
+                <option value="MAN">MAN</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="Hobi">Hobby</label></td>
+            <td>:</td>
+            <td><input type="checkbox" name="Hobi" value="gane">Gaming
+            <input type="checkbox" name="Hobi" value="travel">Traveling
+            <input type="checkbox" name="Hobi" value="rebahan">Rebahan</td>
+            <td>
+            <input type="checkbox" name="Hobi" value="dgrmsk">Dengar Musik
+            <input type="checkbox" name="Hobi" value="Adven">Adventure
+            <input type="checkbox" name="Hobi" value="dll">Dll</td>
+            
+        <tr>
+            <td><label for="address">Alamat</label></td>
+            <td>:</td>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+        </tr>
+        
+        <tr>
+            <td><label for="Semester">Semester</label></td>
+            <td>:</td>
+            <td><select name="semes" id="tahun">
+                    <option value="1">Satu</option>
+                    <option value="2">Dua</option>
+                    <option value="3">Tiga</option>
+                    <option value="4">empat</option>
+                    <option value="5">lima</option>
+                </select></td>
+        </tr>
+        <td><button type="submit">Kirim</button></td>
+        
+    </table>
+    </fieldset>
+</form>
+</body>
+</html>
